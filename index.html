@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vedha Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/7bd8c5c8a7.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>&ensp;Hi, I'm <span>Vedha V S</span><br><p style="color:whitesmoke;font-size: 32px;"> &emsp;
+                Front-end Developer</p><p style="color:whitesmoke;font-size: 20px;"> &emsp;&emsp;&emsp;</p></h1>
+            </div>
+        </div>
+    </div>
+<!--------------------About--------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/pho.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p style="font-family: Times New Roman;font-size: 18px;">To obtain a creative and challenging position
+                             in an organization that gives me an opportunity 
+                             for self-improvement and leadership, 
+                             while contributing to the symbolic growth of the 
+                             organization with my Technical, Innovative & Logic 
+                             skills. With contributing for the company growth one should have 
+                             the growth in the person's life also such that I am making involving 
+                             in the making up of software and electronics based projects make me 
+                             feel that to be helpfull for other people career also.</p>
+                             <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                             </div>
+                             <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Languages</span><br>C,C++,Java</li>
+                                    <li><span>Tools Worked</span><br> GitHub, Visual Studio Code</li>
+                                    <li><span>Practical Skills in Electronics</span><br>Arduino, Raspberry Pi and other boards</li>
+                                </ul>
+                             </div>
+                             <div class="tab-contents" id="projects">
+                                <ul>
+                                    <li><span>Preventive medical App</span><br>HTML, CSS, Azure</li>
+                                    <li><span>Contact-Management System</span><br>C++</li>
+                                    <li><span>Traffic Monitoring System</span><br>Arduino UNO, Java Programming</li>
+                                    <li><span>Advanced foot-step power generation system</span><br>Arduino UNO, Java Programming</li>
+                                </ul>
+                             </div>
+                             <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2019-2023</span><br>BE (EIE) at Dr. Ambedkar Institute of Technology,Bengaluru</li>
+                                    <li><span>2017-2019</span><br>PUC at MES Kishora Kendra PU College, Bengaluru</li>
+                                    <li><span>2016-2017</span><br>SSLC at The Preethi Public School, Chintamani</li>
+                                </ul>
+                             </div>
+                             <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>2022</span><br>Internship at Elemasure Private Limited </li>
+                                </ul>
+                             </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-------------------services----------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>&nbsp;<i class="fa-solid fa-database"></i>
+                <h2 style="font-family: Times New Roman;">Web Design</h2><br>
+                <p style="font-family: Times New Roman;font-size: 18px; color:rgb(236, 236, 236);"> The different areas of web design include web graphic design; user interface design (UI 
+                    design); authoring, including standardised code and proprietary software; user experience design 
+                    (UX design); and search engine optimization. The term "web design" 
+                    is normally used to describe the design process relating to the front-end (client side) design of a
+                    website including writing markup.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-plug-circle-bolt"></i>&nbsp;<i class="fa-solid fa-charging-station"></i>
+                <h2 style="font-family: Times New Roman;">Electronic Project Designing</h2><br>
+                <p style="font-family: Times New Roman;font-size: 18px;color:rgb(236, 236, 236);"> Based on the Project ideas of mine and ideas given by other,
+                     I will do the designing of the projects based on the requirement</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop-file"></i>&nbsp;<i class="fas fa-duotone fa-typewriter"></i>
+                <h2 style="font-family: Times New Roman;">Data Entry and Document Making</h2><br>
+                <p style="font-family: Times New Roman;font-size: 18px;color:rgb(236, 236, 236);"> Uploading the data to certain websites (Job application, Passport Application & etc; Document making is work of Creating the report 
+                    based on the requirement report Making, PPT Making,etc</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------portfolio----------->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/medical .jpg">
+                <div class="layer">
+                    <h3 style="font-family: Times New Roman;">Preventive medical App</h3>
+                    <p style="font-family: Times New Roman;"> The app connects you to the doctors and provide appointments</p>
+                    <a href="https://github.com/Vedhavs/projectmed.git"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/customer.jpg">
+                <div class="layer">
+                    <h3 style="font-family: Times New Roman;">Contact-Management System</h3>
+                    <p style="font-family: Times New Roman;"> The app connects you to get contacts of people</p>
+                    <a href="https://github.com/Vedhavs/CMS.git"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/traffic.jpg">
+                <div class="layer">
+                    <h3 style="font-family: Times New Roman;">Traffic Monitoring System</h3>
+                    <p style="font-family: Times New Roman;"> The system generates penalty if the traffic rules are not folllowed by the public and monitors the traffic </p>
+                    <a href="https://github.com/Vedhavs/traffic-code.git"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------contact------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title1">Contact Me</h1>
+                <p><i class="fas fa-regular fa-envelopes-bulk"></i> vedhavs05@gmail.com</p>
+                <p><i class="fas fa-regular fa-phone"></i> +91 8951407371</p>
+                <div class="social-icons">
+                   
+                    <a href="https://www.instagram.com/vedha_05"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/vedha-v-s-a9675a22a"><i class="fab fa-linkedin"></i></a>
+                </div><br>
+                <a href="images/Vedha V S-Resume.pdf" download class="btn btn2">Download CV</a>  
+            </div>
+            <div class="contact-right">
+                <form action="https://getform.io/f/5021e28e-99bf-434e-9cac-5f563fe77fa4" method="POST">
+                    <input type="text" name="name" placeholder="Your Name">
+                    <input type="phone" name="phone" placeholder="Your Phone">
+                    <input type="email" name="email" placeholder="Your Email">
+                    <input type="text" name="message" placeholder="Your message">
+                    <button  cls="btn btn2"type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p href="vedhavs05@gmail.com">Copyright © Vedha VS <i class="fas fa-solid fa-face-smiling-hands"></i></p>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+    
+</div>
+</body>
+</html>
